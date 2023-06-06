@@ -1,0 +1,17 @@
+Inicializar um projeto Node
+  npm init --y ("--y serve para aceitar todas as perguntas)
+
+Instalar cypress
+  npm install -d cypress ("instala a ultima versão disponivel do cypress)
+  npm install -d cypress@12.5.0 ("instala um versão especifica do cypress)
+
+Abrir o cypress 
+  npx cypress open
+
+Habilitar o auto-complite
+  Criar arquivo "jsconfig.json" e colar codigo { "include": ["./node_modules/cypress", "cypress/**/*.js"] }
+
+Executar os testes em modo headless 
+  npx cypress run
+  npx cypress run --config viewportHeight=1000,viewportWhidth=600 (rodar em modo headless com configuração de resoluçao diferente)
+

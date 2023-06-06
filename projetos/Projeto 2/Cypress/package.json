@@ -1,0 +1,24 @@
+{
+  "name": "testes_automatizados",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iuuri/Testes_Automatizados.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iuuri/Testes_Automatizados/issues"
+  },
+  "homepage": "https://github.com/iuuri/Testes_Automatizados#readme",
+  "devDependencies": {
+    "@faker-js/faker": "^7.6.0",
+    "cypress": "^12.2.0"
+  }
+}

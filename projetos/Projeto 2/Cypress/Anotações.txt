@@ -1,0 +1,33 @@
+No inicio do projeto é preciso importar as dependencias do cypress com = /// <reference types="cypress" />
+------------------------------------------------------------------------------------------------------------------
+Para criar um bloco de contexto utiliza = context("Funcionalidade Login", () => {});
+ou = describe('', () => {});
+------------------------------------------------------------------------------------------------------------------
+Os cenarios de testes são criados com = it('', () => {});
+------------------------------------------------------------------------------------------------------------------
+Metodos de verificação = 
+Verificar se contem algum texto na pagina = cy.get('a > .hidden-xs').should('contain', 'Welcome')
+------------------------------------------------------------------------------------------------------------------
+Hooks = 
+Cenário ou rotina que roda antes de todos os cenarios = before
+Cenário ou rotina que roda antes de cada teste = beforeEach
+Cenário ou rotina que roda depois de todos os cenarios = after
+Cenário ou rotina que roda depois de cada teste = afterEach
+------------------------------------------------------------------------------------------------------------------
+importar biblioteca de massa de dados Faker 
+site = https://www.npmjs.com/package/@faker-js/faker
+documentação = https://fakerjs.dev/guide/
+instalção = npm install --save-dev @faker-js/faker
+importar dependencias para o projeto = import { faker } from '@faker-js/faker';
+------------------------------------------------------------------------------------------------------------------
+
+Git 
+git remote add origin https://github.com/iuuri/Testes_Automatizados.git
+git status 
+git add . 
+git commit -m "novas atividades"
+git push 
+
+------------------------------------------------------------------------------------------------------------------
+abrir o cypress 
+npx cypress open 

@@ -1,0 +1,12 @@
+Extensões 
+- es6 mocha snip
+- cypress snippets
+- material icon theme
+- intellicode
+
+Site de teste 
+- http://automationpractice.pl
+
+Usuario senha 
+- teste1@teste.com
+- teste@teste
